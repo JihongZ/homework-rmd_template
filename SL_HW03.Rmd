@@ -1,0 +1,63 @@
+---
+title: "Homework 3"
+subtitle: "Stat 4540: Statistical Learning"
+author: "Jihong Zhang"
+affiliation: "University of Iowa"
+abstract: 
+thanks:
+keywords:
+date: \today
+output:
+  pdf_document:
+    highlight: default
+    toc: true
+    citation_package:
+    keep_tex: false
+    fig_caption: true
+    latex_engine: pdflatex
+fontsize: 12pt
+geometry: margin=1in
+bibliography:
+biblio-style:
+header-includes:
+- \usepackage{indentfirst}
+- \usepackage{graphicx}
+- \usepackage{geometry}
+- \usepackage{subfigure}
+- \usepackage{amsmath}
+- \usepackage{listings}
+- \usepackage{tikz}
+- \usetikzlibrary{matrix}
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,          # don't show code
+  warning = FALSE,       # don't show warnings
+  message = FALSE,       # don't show messages (less serious warnings)
+  cache = FALSE,         # set to TRUE to save results from last compilation
+  fig.align = "center"   # center figures
+)
+library(tidyverse)       # load libraries you always use here
+library(usefulR)      # i highly recommend creating a personal R package
+                         # with code you use a lot and loading it here as well
+set.seed(27)             # make random results reproducible
+```
+## 1. ISLR 4.7.2
+
+## 2. ISLR 4.7.4
+
+## 3. ISLR 4.7.5
+
+## 4. ISLR 4.7.10 (a)-(h)
+
+## 5.
+
+### (a)
+
+
+
+## 6. ISLR 5.4.2 (a)-(f)
+
+## 7. ISLR 5.4.6
+
